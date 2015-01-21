@@ -4,6 +4,7 @@ alias chrome="open /Applications/Google\ Chrome.app"
 alias cl="clear"
 alias mail="open /Applications/Mail.app"
 alias code="cd ~/Code/"
+alias dp="cd ~/Dropbox"
 
 
 # Git details
