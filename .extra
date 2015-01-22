@@ -7,6 +7,8 @@ alias code="cd ~/Code/"
 alias dp="cd ~/Dropbox"
 alias dpp="cd ~/Dropbox/Programacion"
 alias d="cd ~/Documents/Personal/"
+alias dotfiles="cd ~/.dotfiles/dotfiles/"
+alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
 
 # Git details
 GIT_AUTHOR_NAME="Cristobal Gomez"
