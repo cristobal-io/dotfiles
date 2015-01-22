@@ -6,7 +6,7 @@ alias mail="open /Applications/Mail.app"
 alias code="cd ~/Code/"
 alias dp="cd ~/Dropbox"
 alias dpp="cd ~/Dropbox/Programacion"
-alias d="cd ~/Documents/Personal/"
+alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
 alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
 
