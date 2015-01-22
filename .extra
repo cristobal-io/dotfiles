@@ -1,7 +1,7 @@
 # Personal shortcuts 
 alias firefox="open /Applications/Firefox.app"
 alias chrome="open /Applications/Google\ Chrome.app"
-alias cl="clear"
+alias c="clear"
 alias mail="open /Applications/Mail.app"
 alias code="cd ~/Code/"
 alias dp="cd ~/Dropbox"
