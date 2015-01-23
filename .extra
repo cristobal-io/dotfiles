@@ -1,4 +1,5 @@
 # Personal shortcuts
+
 alias firefox="open /Applications/Firefox.app"
 alias chrome="open /Applications/Google\ Chrome.app"
 alias c="clear"
@@ -9,6 +10,10 @@ alias dpp="cd ~/Dropbox/Programacion"
 alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
 alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
+
+# this are the commands I should use to update the right permissions to the Application folder:
+# sudo chmod 775 /Applications
+# sudo chgrp admin /Applications
 
 # Git details
 # GIT_AUTHOR_NAME="Cristobal Gomez"
