@@ -15,6 +15,11 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+#Change DNS
+alias dnsGoogle="sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4"
+alias dnsUnblockUs="sudo networksetup -setdnsservers Wi-Fi 208.122.23.23 208.122.23.22"
+alias dnsEmpty="sudo networksetup -setdnsservers Wi-Fi empty"
+
 
 
 
