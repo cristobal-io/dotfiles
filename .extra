@@ -16,7 +16,7 @@ alias dnsGoogle="sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4"
 alias dnsUnblockUs="sudo networksetup -setdnsservers Wi-Fi 208.122.23.23 208.122.23.22"
 alias dnsEmpty="sudo networksetup -setdnsservers Wi-Fi empty"
 alias dnsUnblockUs_Ethernet="sudo networksetup -setdnsservers Ethernet 208.122.23.23 208.122.23.22"
-alias dnsEmpty="sudo networksetup -setdnsservers Ethernet empty"
+alias dnsEmpty_Ethernet="sudo networksetup -setdnsservers Ethernet empty"
 
 # this are the commands I should use to update the right permissions to the Application folder:
 # sudo chmod 775 /Applications
