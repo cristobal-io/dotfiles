@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-
 # Personal shortcuts
 
-=======
-# Personal shortcuts
->>>>>>> a7593357cba80fe35036c28471752a521f2dc6d9
 
 alias firefox="open /Applications/Firefox.app"
 alias chrome="open /Applications/Google\ Chrome.app"
