@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 # Personal shortcuts
-=======
-# Personal shortcuts 
->>>>>>> a5d3545aa04e5fa53005aec2006e356da5114a74
+
 
 alias firefox="open /Applications/Firefox.app"
 alias chrome="open /Applications/Google\ Chrome.app"
@@ -27,9 +25,9 @@ alias dnsEmpty_Ethernet="sudo networksetup -setdnsservers Ethernet empty"
 # sudo chgrp admin /Applications
 
 # Git details
-# GIT_AUTHOR_NAME="Cristobal Gomez"
-# GIT_COMMITTER_NAME="$cristobal-io"
-# git config --global user.name "$cristobal-io"
-# GIT_AUTHOR_EMAIL="me@cristobal.io"
-# GIT_COMMITTER_EMAIL="$me@cristobal.io"
-# git config --global user.email "$cristobal.gomez@gmail.com"
+GIT_AUTHOR_NAME="Cristobal Gomez"
+GIT_COMMITTER_NAME="cristobal-io"
+git config --global user.name "cristobal-io"
+GIT_AUTHOR_EMAIL="me@cristobal.io"
+GIT_COMMITTER_EMAIL="$me@cristobal.io"
+git config --global user.email "me@cristobal.io"
