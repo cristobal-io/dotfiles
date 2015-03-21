@@ -9,18 +9,13 @@ if [ $# -eq 0 ]; then
 fi
 
 for file in "$@"; do
-<<<<<<< HEAD
   # get just file name
-=======
-  # get just file name 
->>>>>>> a5d3545aa04e5fa53005aec2006e356da5114a74
   destfile="`basename $file`"
   suffix='';
   i=0;
 
   # If that file already exists in the trash, change the name using
   # the same convetion OS X does.
-
   # blah
   # blah copy
   # blah copy 1
@@ -33,11 +28,7 @@ for file in "$@"; do
     fi
     i=`expr $i + 1`
   done
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> a5d3545aa04e5fa53005aec2006e356da5114a74
   if [ -e "$file" ]; then
     mv "$file" "$HOME/.Trash/${destfile}${suffix}"
     touch "$HOME/.Trash/${destfile}${suffix}"
