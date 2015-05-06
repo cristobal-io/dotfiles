@@ -31,3 +31,12 @@ git config --global user.name "cristobal-io"
 GIT_AUTHOR_EMAIL="me@cristobal.io"
 GIT_COMMITTER_EMAIL="$me@cristobal.io"
 git config --global user.email "me@cristobal.io"
+
+# List all files colorized in long format - Added MB 
+alias l="ls -halF ${colorflag}"
+
+# List all files colorized in long format, including dot files - Added MB 
+alias la="ls -halaF ${colorflag}"
+
+# List only directories - Added MB 
+alias lsd="ls -halF ${colorflag} | grep --color=never '^d'"
