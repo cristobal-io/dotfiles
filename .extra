@@ -33,7 +33,7 @@ GIT_COMMITTER_EMAIL="$me@cristobal.io"
 git config --global user.email "me@cristobal.io"
 
 # List all files colorized in long format - Added MB 
-alias l="ls -halF ${colorflag}"
+alias l="ls -hlF ${colorflag}"
 
 # List all files colorized in long format, including dot files - Added MB 
 alias la="ls -halaF ${colorflag}"
