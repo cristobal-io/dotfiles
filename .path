@@ -1,1 +1,17 @@
 export PATH="./node_modules/.bin:$PATH";
+
+# nvm source (node version manager)
+. ~/.nvm/nvm.sh
+
+
+# this is for linux
+
+# Determine OS platform
+UNAME=$(uname | tr "[:upper:]" "[:lower:]")
+
+# If Linux, try to determine specific distribution
+if [ "$UNAME" == "linux" ]; then
+  export PATH="$HOME/.linuxbrew/bin:$PATH"
+  export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+  export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+  fi

@@ -40,3 +40,13 @@ alias la="ls -halaF ${colorflag}"
 
 # List only directories - Added MB 
 alias lsd="ls -halF ${colorflag} | grep --color=never '^d'"
+
+#linux
+alias pbcopyl='xclip -selection clipboard'
+alias pbpastel='xclip -selection clipboard -o'
+alias go='xdg-open'
+
+# git autocompletion
+if [ -f ~/.dotfiles/dotfiles/.git-completion.bash ]; then
+  . ~/.dotfiles/dotfiles/.git-completion.bash
+fi
