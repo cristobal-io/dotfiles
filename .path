@@ -1,4 +1,6 @@
-export PATH="./node_modules/.bin:$PATH";
+# export PATH="./node_modules/.bin:$PATH";
+export PATH=./node_modules/.bin:$PATH
+
 
 # nvm source (node version manager)
 . ~/.nvm/nvm.sh
