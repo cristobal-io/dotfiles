@@ -19,7 +19,7 @@ alias j="jobs"
 alias sl="pmset sleepnow"
 
 # Prevent computer from sleep for 60 minutes.
-alias cf="caffeinate -i -t 3600 &"
+alias cf="caffeinate -d -t 3600 &"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
