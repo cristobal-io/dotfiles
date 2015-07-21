@@ -15,8 +15,8 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
-# Computer sleep
-alias sl="pmset sleepnow"
+# Computer sleep in combination with  /etc/rc.displaysleep
+alias sl="pmset displaysleepnow"
 
 # Prevent computer from sleep for 60 minutes.
 alias cf="caffeinate -d -t 3600 &"
