@@ -41,6 +41,15 @@ alias la="ls -halaF ${colorflag}"
 # List only directories - Added MB 
 alias lsd="ls -halF ${colorflag} | grep --color=never '^d'"
 
+# List all files and recursive directories and sort by size
+alias dus='du -hs ./* | sort --n'
+
+# Computer sleep in combination with  /etc/rc.displaysleep
+alias sl="pmset sleepnow"
+
+# Prevent computer from sleep for 60 minutes.
+alias cf="caffeinate -d -t 3600 &"
+
 #linux
 alias pbcopyl='xclip -selection clipboard'
 alias pbpastel='xclip -selection clipboard -o'
