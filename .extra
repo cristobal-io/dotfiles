@@ -1,4 +1,10 @@
+
+# node version:
+nvm use stable
+
+
 # Personal shortcuts
+
 
 
 alias firefox="open /Applications/Firefox.app"
