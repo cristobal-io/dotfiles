@@ -2,6 +2,8 @@
 # node version:
 nvm use stable
 
+# java home directorie
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Personal shortcuts
 
