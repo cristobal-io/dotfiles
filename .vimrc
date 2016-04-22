@@ -44,9 +44,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-"
+"""""""""""""""""""""""""""""
 " syntastic configuration
-"
+"""""""""""""""""""""""""""""
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -57,17 +57,24 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-"
+"""""""""""""""""""""""""""""
 " End of syntastic configuration.
-"
+"""""""""""""""""""""""""""""
 
+""""""""""""""""""""""""""""
 "options for nerdTree
+""""""""""""""""""""""""""""
 
 " open nerdtree by default
 autocmd vimenter * NERDTree
 " close nerdtree if is the last file opened.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" show hidden files by default.
+let g:NERDTreeShowHidden=1
 
+""""""""""""""""""""""""""""
+" End of nerdtree options
+""""""""""""""""""""""""""""
 
 " Use the Solarized Dark theme
 " set background=dark
