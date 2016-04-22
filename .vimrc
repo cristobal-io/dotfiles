@@ -18,6 +18,17 @@ Plugin 'pangloss/vim-javascript'
 " https://github.com/crusoexia/vim-javascript-lib
 Plugin 'crusoexia/vim-javascript-lib'
 
+" NerdTree
+Plugin 'scrooloose/nerdTree'
+" Adding git support to nerdtree
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
+" syntaxtic - lint editor
+Plugin 'syntastic'
+
+" ctrl-p to search on the project.
+Plugin 'ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -32,6 +43,31 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+"
+" syntastic configuration
+"
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"
+" End of syntastic configuration.
+"
+
+"options for nerdTree
+
+" open nerdtree by default
+autocmd vimenter * NERDTree
+" close nerdtree if is the last file opened.
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 
 " Use the Solarized Dark theme
 " set background=dark
