@@ -67,14 +67,15 @@ function fs() {
 		du $arg .[^.]* *;
 	fi;
 }
-
-# Use Git’s colored diff when available
-hash git &>/dev/null;
-if [ $? -eq 0 ]; then
-	function diff() {
-		git diff --no-index --color-words "$@";
-	}
-fi;
+# this has been commented because when creating a diff.patch file it was 
+# putting the wrong output and the patch wasn't working.
+# # Use Git’s colored diff when available
+# hash git &>/dev/null;
+# if [ $? -eq 0 ]; then
+# 	function diff() {
+# 		git diff --no-index --color-words "$@";
+# 	}
+# fi;
 
 # Create a data URL from a file
 function dataurl() {
