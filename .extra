@@ -20,6 +20,7 @@ alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
 alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
 alias bermi="cd ~/Dropbox/Programacion/Bermi\ Sessions/"
+alias tmp="mkdir tmp && cd tmp"
 
 #Change DNS
 alias dnsGoogle="sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4"
