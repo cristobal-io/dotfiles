@@ -6,6 +6,7 @@ nvm use stable
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Personal shortcuts
+alias p="cd ~/Code/projects"
 
 alias es6katas="(cd ~/code/tutorials_and_learning/es6katas && server & open 'http://localhost:8000/tddbin-frontend/dist/?311#?kata=es6/language/template-strings/basics')"
 
