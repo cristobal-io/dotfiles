@@ -52,6 +52,7 @@ alias lsd="ls -halF ${colorflag} | grep --color=never '^d'"
 
 # List all files and recursive directories and sort by size
 alias dus='du -hs ./* | sort --n'
+alias dusg='du -hs ./* | sort --n | grep G'
 
 # Computer sleep in combination with  /etc/rc.displaysleep
 alias sl="pmset sleepnow"
