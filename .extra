@@ -22,6 +22,9 @@ alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
 alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
 alias bermi="cd ~/Bermi/"
+alias perso="cd ~/Code/personal/"
+
+# create a tmp folder
 alias tmp="mkdir tmp && cd tmp"
 
 #Change DNS
