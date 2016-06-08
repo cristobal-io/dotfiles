@@ -21,7 +21,7 @@ alias dpp="cd ~/Dropbox/Programacion"
 alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
 alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
-alias bermi="cd ~/Dropbox/Programacion/Bermi\ Sessions/"
+alias bermi="cd ~/Bermi/"
 alias tmp="mkdir tmp && cd tmp"
 
 #Change DNS
