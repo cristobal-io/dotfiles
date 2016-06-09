@@ -87,3 +87,4 @@ alias syncimac="rsync -av --delete ~/code/ cristobalgomezmoreno@imac.local:~/cod
 alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new movie recording)'"
 
 alias newaudio="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new audio recording)'"
+alias newscreen="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new screen recording)'"
