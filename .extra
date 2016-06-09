@@ -82,3 +82,8 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
 
 alias syncmb="rsync -av --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
 alias syncimac="rsync -av --delete ~/code/ cristobalgomezmoreno@imac.local:~/code/"
+
+# start new quicktime movie or audio recording
+alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new movie recording)'"
+
+alias newaudio="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new audio recording)'"
