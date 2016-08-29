@@ -27,6 +27,11 @@ alias perso="cd ~/Code/personal/"
 # create a tmp folder
 alias tmp="mkdir tmp && cd tmp"
 
+# Create a new directory with year_month_day as name and enter it
+function mkddate() {
+  mkdir -p $(date +%Y_%m_%d) && cd "$_";
+}
+
 #Change DNS
 alias dnsGoogle="sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4"
 alias dnsUnblockUs="sudo networksetup -setdnsservers Wi-Fi 208.122.23.23 208.122.23.22"
