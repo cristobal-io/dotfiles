@@ -88,6 +88,10 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
 alias syncmb="rsync -av --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
 alias syncimac="rsync -av --delete ~/code/ cristobalgomezmoreno@imac.local:~/code/"
 
+# rsync private keys between imac and macbook
+alias syncmb_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobal@cristobal-mb.local:~/.dotfiles/dotfiles/.ssh/"
+alias syncimac_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobalgomezmoreno@imac.local:~/.dotfiles/dotfiles/.ssh/"
+
 # start new quicktime movie or audio recording
 alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new movie recording)'"
 
