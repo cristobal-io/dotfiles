@@ -93,3 +93,6 @@ alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate'
 
 alias newaudio="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new audio recording)'"
 alias newscreen="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new screen recording)'"
+
+alias source_personal="source ~/.ssh/.private"
+alias source_hexo_aws="source ~/.ssh/.private-hexo"
