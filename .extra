@@ -102,4 +102,4 @@ alias newscreen="osascript -e 'tell application \"QuickTime Player\" to activate
 alias source_personal="source ~/.ssh/.private"
 alias source_hexo_aws="source ~/.ssh/.private-hexo"
 
-alias start_linear="cd Code/linear_air/ && a Docs/ && cd linear-seo && s && npm start"
+alias start_linear="cd ~/Code/linear_air/ && a Docs/ && cd linear-seo && s && npm start"
