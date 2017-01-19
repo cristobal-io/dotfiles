@@ -21,7 +21,7 @@ alias dp="cd ~/Dropbox"
 alias dpp="cd ~/Dropbox/Programacion"
 alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
-alias dotfiles_update="source ~/.dotfiles/dotfiles/bootstrap.sh"
+alias source_dotfiles="source ~/.dotfiles/dotfiles/bootstrap.sh"
 alias bermi="cd ~/Bermi/"
 alias perso="cd ~/Code/personal/"
 
