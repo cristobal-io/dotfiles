@@ -87,8 +87,6 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
 # rsync command to sync the code folder with all the subfolders between imac and macbook.
 
 alias syncmb="rsync -av --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
-alias syncmb_linear="rsync -av --delete ~/code/linear_air/ cristobal@cristobal-mb.local:~/code/linear_air/"
-alias syncimac_linear="rsync -av --delete ~/code/linear_air/ cristobalgomezmoreno@imac.local:~/code/linear_air/"
 alias syncimac="rsync -av --delete ~/code/ cristobalgomezmoreno@imac.local:~/code/"
 
 # rsync private keys between imac and macbook
@@ -106,4 +104,8 @@ alias newscreen="osascript -e 'tell application \"QuickTime Player\" to activate
 # alias source_personal="source ~/.ssh/.private"
 alias source_aws="source ~/.ssh/.aws"
 
+# linear related commands
 alias start_linear="cd ~/Code/linear_air/ && a Docs/ && cd linear-seo && s && npm start"
+alias linear="cd ~/Code/linear_air/"
+alias syncmb_linear="rsync -av --delete ~/code/linear_air/ cristobal@cristobal-mb.local:~/code/linear_air/"
+alias syncimac_linear="rsync -av --delete ~/code/linear_air/ cristobalgomezmoreno@imac.local:~/code/linear_air/"
