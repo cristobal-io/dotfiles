@@ -102,7 +102,7 @@ alias newaudio="osascript -e 'tell application \"QuickTime Player\" to activate'
 alias newscreen="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new screen recording)'"
 
 # alias source_personal="source ~/.ssh/.private"
-alias source_aws="source ~/.ssh/.aws"
+alias source_personal_aws="source ~/.ssh/.aws"
 
 # linear related commands
 alias start_linear="cd ~/Code/linear_air/ && a Docs/ && cd linear-seo && s && npm start"
