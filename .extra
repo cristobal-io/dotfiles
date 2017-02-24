@@ -112,6 +112,6 @@ alias syncimac_linear="rsync -av --delete ~/code/linear_air/ cristobal-imac@imac
 
 
 # docker alias
-alias docker-setup-locally 'docker-machine start default;eval $(docker-machine env default)'
-alias docker-setup-aws 'source-aws; docker-machine start aviation-app;eval $(docker-machine env aviation-app)'
+alias docker-setup-locally='docker-machine start default;eval $(docker-machine env default)'
+alias docker-setup-aws='source-aws; docker-machine start aviation-app;eval $(docker-machine env aviation-app)'
 
