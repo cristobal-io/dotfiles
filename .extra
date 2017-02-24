@@ -109,3 +109,9 @@ alias start_linear="cd ~/Code/linear_air/ && a Docs/ && cd linear-seo && s && np
 alias linear="cd ~/Code/linear_air/"
 alias syncmb_linear="rsync -av --delete ~/code/linear_air/ cristobal@cristobal-mb.local:~/code/linear_air/"
 alias syncimac_linear="rsync -av --delete ~/code/linear_air/ cristobal-imac@imac.local:~/code/linear_air/"
+
+
+# docker alias
+alias docker-setup-locally 'docker-machine start default;eval $(docker-machine env default)'
+alias docker-setup-aws 'source-aws; docker-machine start aviation-app;eval $(docker-machine env aviation-app)'
+
