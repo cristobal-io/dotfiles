@@ -87,7 +87,9 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
 # rsync command to sync the code folder with all the subfolders between imac and macbook.
 
 alias syncmb="rsync -av --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
+alias syncmb_dry="rsync -av --dry-run --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
 alias syncimac="rsync -av --delete ~/code/ cristobal-imac@imac.local:~/code/"
+alias syncimac_dry="rsync -av --dry-run --delete ~/code/ cristobal-imac@imac.local:~/code/"
 
 # rsync private keys between imac and macbook
 # rsync -avz -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/
