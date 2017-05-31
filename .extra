@@ -6,25 +6,30 @@ export PATH="$HOME/.yarn/bin:$PATH"
 # java home directorie
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-# Personal shortcuts
+# Directories shortcuts
 alias p="cd ~/Code/projects"
 alias os="cd ~/Code/open_source/"
-
-alias es6katas="(cd ~/code/tutorials_and_learning/es6katas && server & open 'http://localhost:8000/tddbin-frontend/dist/?311#?kata=es6/language/template-strings/basics')"
-
-alias firefox="open /Applications/Firefox.app"
-alias chrome="open /Applications/Google\ Chrome.app"
-alias chrome_disable_web_security="open /Applications/Google\ Chrome.app --args --user-data-dir=\"/var/tmp/chrome dev session\" --disable-web-security"
 alias c="clear"
-alias mail="open /Applications/Mail.app"
 alias co="cd ~/Code/"
 alias dp="cd ~/Dropbox"
 alias dpp="cd ~/Dropbox/Programacion"
 alias d="cd ~/Documents/"
 alias dotfiles="cd ~/.dotfiles/dotfiles/"
-alias source_dotfiles="source ~/.dotfiles/dotfiles/bootstrap.sh"
 alias bermi="cd ~/Bermi/"
 alias perso="cd ~/Code/personal/"
+
+# servers and services
+alias es6katas="(cd ~/code/tutorials_and_learning/es6katas && server & open 'http://localhost:8000/tddbin-frontend/dist/?311#?kata=es6/language/template-strings/basics')"
+
+# Programs.
+alias firefox="open /Applications/Firefox.app"
+alias chrome="open /Applications/Google\ Chrome.app"
+alias chrome_disable_web_security="open /Applications/Google\ Chrome.app --args --user-data-dir=\"/var/tmp/chrome dev session\" --disable-web-security"
+alias mail="open /Applications/Mail.app"
+
+# source files
+alias source_dotfiles="source ~/.dotfiles/dotfiles/bootstrap.sh"
+alias source_personal_aws="source ~/.ssh/.aws"
 
 # create a tmp folder
 alias tmp="mkdir tmp && cd tmp"
@@ -104,8 +109,6 @@ alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate'
 alias newaudio="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new audio recording)'"
 alias newscreen="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new screen recording)'"
 
-# alias source_personal="source ~/.ssh/.private"
-alias source_personal_aws="source ~/.ssh/.aws"
 
 # linear related commands
 alias start_linear="cd ~/Code/linear_air/ && a Docs/ && cd linear-seo && s && npm start"
