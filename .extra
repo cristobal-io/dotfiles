@@ -14,6 +14,7 @@ alias es6katas="(cd ~/code/tutorials_and_learning/es6katas && server & open 'htt
 
 alias firefox="open /Applications/Firefox.app"
 alias chrome="open /Applications/Google\ Chrome.app"
+alias chrome_disable_web_security="open /Applications/Google\ Chrome.app --args --user-data-dir=\"/var/tmp/chrome dev session\" --disable-web-security"
 alias c="clear"
 alias mail="open /Applications/Mail.app"
 alias co="cd ~/Code/"
