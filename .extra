@@ -26,6 +26,7 @@ alias firefox="open /Applications/Firefox.app"
 alias chrome="open /Applications/Google\ Chrome.app"
 alias chrome_disable_web_security="open /Applications/Google\ Chrome.app --args --user-data-dir=\"/var/tmp/chrome dev session\" --disable-web-security"
 alias mail="open /Applications/Mail.app"
+alias skype2="open -na /Applications/Skype.app --args -DataPath /Users/$(whoami)/Library/Application\ Support/Skype2"
 
 # source files
 alias source_dotfiles="source ~/.dotfiles/dotfiles/bootstrap.sh"
