@@ -31,7 +31,8 @@ alias skype2="open -na /Applications/Skype.app --args -DataPath /Users/$(whoami)
 # source files
 alias source_dotfiles="source ~/.dotfiles/dotfiles/bootstrap.sh"
 alias source_personal_aws="source ~/.ssh/.aws"
-
+# alias source_fluid="source ~/.ssh/.fluid"
+alias source_fluid="source ~/.fluid/.bitbucket"
 # create a tmp folder
 alias tmp="mkdir tmp && cd tmp"
 
