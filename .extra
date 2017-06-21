@@ -104,6 +104,8 @@ alias syncimac_dry="rsync -av --dry-run --delete ~/code/ cristobal-imac@imac.loc
 
 alias syncmb_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobal@cristobal-mb.local:~/.dotfiles/dotfiles/.ssh/"
 alias syncimac_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobal-imac@imac.local:~/.dotfiles/dotfiles/.ssh/"
+alias syncmb_fluid_code="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal@cristobal-mb.local:~/.dotfiles/dotfiles/.fluid/"
+alias syncimac_fluid_code="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal-imac@imac.local:~/.dotfiles/dotfiles/.fluid/"
 
 # start new quicktime movie or audio recording
 alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new movie recording)'"
@@ -118,6 +120,10 @@ alias linear="cd ~/Code/linear_air/"
 alias syncmb_linear="rsync -av --delete ~/code/linear_air/ cristobal@cristobal-mb.local:~/code/linear_air/"
 alias syncimac_linear="rsync -av --delete ~/code/linear_air/ cristobal-imac@imac.local:~/code/linear_air/"
 
+# Fluid related commands
+alias fluid="cd ~/Code/Fluid/"
+alias syncmb_fluid="rsync -av --delete ~/code/Fluid/ cristobal@cristobal-mb.local:~/code/Fluid/"
+alias syncimac_fluid="rsync -av --delete ~/code/Fluid/ cristobal-imac@imac.local:~/code/Fluid/"
 
 # docker alias
 alias docker-setup-locally='docker-machine start default;eval $(docker-machine env default)'
