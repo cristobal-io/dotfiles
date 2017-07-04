@@ -96,16 +96,23 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
 
 alias syncmb="rsync -av --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
 alias syncmb_dry="rsync -av --dry-run --delete ~/code/ cristobal@cristobal-mb.local:~/code/"
+
 alias syncimac="rsync -av --delete ~/code/ cristobal-imac@imac.local:~/code/"
 alias syncimac_dry="rsync -av --dry-run --delete ~/code/ cristobal-imac@imac.local:~/code/"
+
+alias syncmbpro="rsync -av --delete ~/code/ cristobal@cristobal.local:~/code/"
+alias syncmbpro_dry="rsync -av --dry-run --delete ~/code/ cristobal@cristobal.local:~/code/"
 
 # rsync private keys between imac and macbook
 # rsync -avz -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/
 
 alias syncmb_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobal@cristobal-mb.local:~/.dotfiles/dotfiles/.ssh/"
 alias syncimac_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobal-imac@imac.local:~/.dotfiles/dotfiles/.ssh/"
-alias syncmb_fluid_code="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal@cristobal-mb.local:~/.dotfiles/dotfiles/.fluid/"
-alias syncimac_fluid_code="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal-imac@imac.local:~/.dotfiles/dotfiles/.fluid/"
+alias syncimac_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.ssh/ cristobal@cristobal.local:~/.dotfiles/dotfiles/.ssh/"
+
+alias syncmb_fluid_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal@cristobal-mb.local:~/.dotfiles/dotfiles/.fluid/"
+alias syncimac_fluid_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal-imac@imac.local:~/.dotfiles/dotfiles/.fluid/"
+alias syncmb_pro_fluid_ssh="rsync -av --delete ~/.dotfiles/dotfiles/.fluid/ cristobal@cristobal.local:~/.dotfiles/dotfiles/.fluid/"
 
 # start new quicktime movie or audio recording
 alias newmovie="osascript -e 'tell application \"QuickTime Player\" to activate' -e 'tell application \"QuickTime Player\" to start (new movie recording)'"
