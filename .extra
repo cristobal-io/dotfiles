@@ -139,3 +139,52 @@ export DOCKER_MACHINE_NAME="default"
 
 # node shortcuts
 alias show_package_version="node -p -e \"require('./package.json').version\"";
+
+#
+# Fluid
+#
+
+# Work
+alias gp!="grunt publish:dev"
+alias pp!="git pull origin HEAD && git push origin HEAD && grunt publish:dev"
+alias qa!="grunt publish:qa && grunt publish:qa --cdn"
+alias prod!="grunt publish:prod && grunt publish:prod --cdn"
+alias work="subl . && grunt build && grunt watch"
+alias working="grunt build && grunt watch"
+alias customer="grep --color -w 'id\|apiKey\|licenseeKey' package.json"
+
+export LOCALPATH=~/code/Fluid
+
+# Projects
+alias 800="cd ${LOCALPATH}/imp-800/"
+alias bro="cd ${LOCALPATH}/imp-bro/"
+alias base="cd ${LOCALPATH}/imp-base/"
+alias cha="cd ${LOCALPATH}/imp-cha/"
+alias demo="cd ${LOCALPATH}/imp-demo/"
+alias ext="cd ${LOCALPATH}/imp-ext/"
+alias fen="cd ${LOCALPATH}/imp-fen/"
+alias fra="cd ${LOCALPATH}/imp-fra/"
+alias gtx="cd ${LOCALPATH}/imp-gtx/"
+alias jcp="cd ${LOCALPATH}/imp-jcp/"
+alias ked="cd ${LOCALPATH}/imp-ked/"
+alias kor="cd ${LOCALPATH}/imp-kor/"
+alias llb="cd ${LOCALPATH}/imp-llb/"
+alias lov="cd ${LOCALPATH}/imp-lov/"
+alias mat="cd ${LOCALPATH}/imp-mat/"
+alias mms="cd ${LOCALPATH}/imp-mms/"
+alias mvi="cd ${LOCALPATH}/imp-mvi/"
+alias nix="cd ${LOCALPATH}/imp-nix/"
+alias oak="cd ${LOCALPATH}/imp-oak/"
+alias pum="cd ${LOCALPATH}/imp-pum/"
+alias ree="cd ${LOCALPATH}/imp-ree/"
+alias ree3="cd ${LOCALPATH}/imp-ree3/"
+alias slt="cd ${LOCALPATH}/imp-slt/"
+alias spe="cd ${LOCALPATH}/imp-spe/"
+alias sta="cd ${LOCALPATH}/imp-sta/"
+alias tay="cd ${LOCALPATH}/imp-tay/"
+alias tim="cd ${LOCALPATH}/imp-tim/"
+alias tnf="cd ${LOCALPATH}/imp-tnf/"
+alias toolkit="cd ${LOCALPATH}/imp-toolkit/"
+alias txii="cd ${LOCALPATH}/imp-txii/"
+alias vans="cd ${LOCALPATH}/imp-vans/"
+alias wil="cd ${LOCALPATH}/imp-wil/"
