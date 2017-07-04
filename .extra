@@ -149,7 +149,7 @@ alias gp!="grunt publish:dev"
 alias pp!="git pull origin HEAD && git push origin HEAD && grunt publish:dev"
 alias qa!="grunt publish:qa && grunt publish:qa --cdn"
 alias prod!="grunt publish:prod && grunt publish:prod --cdn"
-alias work="subl . && grunt build && grunt serve || (server & grunt watch)"
+alias work="npm install && subl . && grunt build && grunt serve || (server & grunt watch)"
 alias working="grunt build && grunt serve || (server & grunt watch)"
 alias customer="grep --color -w 'id\|apiKey\|licenseeKey' package.json"
 
